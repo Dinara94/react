@@ -1,0 +1,41 @@
+.header {
+  position: relative;
+  max-width: 1284px;
+  height: 80px;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  align-self: center;
+  margin: auto 0 auto 50px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 70px;
+}
+
+.optionsContainer {
+  width: 55%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.option {
+  margin: 0px 25px;
+  font-size: 18px;
+  line-height: 80px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.option:hover {
+  color: #0000ff;
+}
